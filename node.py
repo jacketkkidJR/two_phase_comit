@@ -165,6 +165,7 @@ class TwoPhaseCommitCoordinator(TwoPhaseCommitNode):
     async def complete_transaction(self):
         self.exec_counter = 0
         trans_id = self.current_trans_id
+        self.logger.info(f"Current transaction: {trans_id}")
         # Send request-to-prepare messages
         # Write prepare to log (forced)
         self.transactions[trans_id] = "PREPARED"
