@@ -7,6 +7,7 @@ import logging
 import psycopg2.errors
 import psycopg2.extensions
 import comm
+from datetime import datetime
 
 
 class TwoPhaseCommitNode:
@@ -126,17 +127,18 @@ class TwoPhaseCommitCoordinator(TwoPhaseCommitNode):
     async def recv_execute(self, data):
         node_id = int(data["node_id"])
         query = str(data["query"])
+        timestamp = str(data["timestamp"])
         args = tuple(data["args"])
         self.logger.info(f"Received EXECUTE ({query}) with args {args} for node {node_id} request from client.")
-        return await self.execute(node_id, query, args)
+        return await self.execute(node_id, query, timestamp, args)
 
-    async def execute(self, node_id, query, args):
+    async def execute(self, node_id, query, timestamp, args):
         if self.exec_counter == 0:
             began = self.begin_transaction()
             if not began:
                 return False
         participant = self.participants[node_id]
-        executed = await participant.send_timeout("EXECUTE", (self.current_trans_id, query, args))
+        executed = await participant.send_timeout("EXECUTE", (self.current_trans_id, query, timestamp, args))
         if not executed:
             self.logger.error("EXECUTE did not reach destination node or was not successful.")
             return False
@@ -174,8 +176,7 @@ class TwoPhaseCommitCoordinator(TwoPhaseCommitNode):
 
     async def prepare_transaction(self, trans_id):
         assert self.transactions[trans_id] == "PREPARED"
-        result = await self.send_all("PREPARE", trans_id)
-        self.logger.info(result)
+        await self.send_all("PREPARE", trans_id)
         self.logger.info(f"Sent PREPARE {trans_id} to all participants.")
         try:
             await asyncio.wait_for(self.everyone_prepared_event.wait(), self.timeout)
@@ -384,7 +385,7 @@ class TwoPhaseCommitParticipant(TwoPhaseCommitNode):
         Execute the given query. May start a new transaction. We reject queries
         if the previous transaction was not successfully completed.
         """
-        trans_id, query, args = data
+        trans_id, query, timestamp, args = data
 
         if trans_id != self.current_trans_id:
             begun = await self.begin_transaction(trans_id)
@@ -397,7 +398,8 @@ class TwoPhaseCommitParticipant(TwoPhaseCommitNode):
         self.logger.info(f"EXECUTE ({query}) for transaction {trans_id} in database.")
         try:
             self.data_db_cur.execute(query, args)
-            self.logger.info("Done.")
+            timestampend = datetime.utcnow().timestamp()
+            self.logger.info(f"The request was sent by the client at {timestamp}. Done at {timestampend}. Total time = {timestampend - timestamp} (in seconds).")
         except psycopg2.Error as e:
             self.do_abort(trans_id)
             self.logger.error(f"EXECUTE failed: {str(e)}")

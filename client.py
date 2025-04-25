@@ -5,12 +5,14 @@ import util
 import time
 import sys
 import psycopg2
+from datetime import datetime
 
 
-async def send_execute_request(coordinator, node_id, query, args=tuple()):
+async def send_execute_request(coordinator, node_id, query, timestamp, args=tuple()):
     kind = "EXECUTE"
     data = {"node_id": node_id,
             "query": query,
+            "timestamp": timestamp,
             "args": args}
     return await coordinator.send(kind, data)
 
@@ -20,7 +22,7 @@ async def main():
     argparser.add_argument("--coordinator", type=util.hostname_port_type, required=True)
     argparser.add_argument("--demo", choices=demo_tables.keys())
     argparser.add_argument("--n-nodes", type=int)
-    argparser.add_argument("--data-db")
+    # argparser.add_argument("--data-db")
     args = argparser.parse_args()
     coordinator_hostname, coordinator_port = args.coordinator
 
@@ -28,14 +30,11 @@ async def main():
     if args.demo:
         if not args.n_nodes:
             print("For demo mode, the total number of participant nodes must be given with --n-nodes.")
-        if not args.data_db:
-            print("For demo mode, a source database must be given with --data-db.")
-        if not args.n_nodes or not args.data_db:
             return 1
         is_demo = True
     else:
-        if args.n_nodes or args.data_db:
-            print("Arguments --n-nodes and --data-db may only be given in demo mode.")
+        if args.n_nodes:
+            print("The argument --n-nodes may only be given in demo mode.")
 
     coordinator = comm.RemoteCallClient(coordinator_hostname, coordinator_port)
     await coordinator.connect()
@@ -44,7 +43,7 @@ async def main():
     if not is_demo:
         await interactive_ui(coordinator)
     else:
-        await demo_ui(coordinator, args.data_db, args.n_nodes, args.demo)
+        await demo_ui(coordinator, args.n_nodes, args.demo)
 
 
 async def interactive_ui(coordinator):
@@ -55,42 +54,26 @@ async def interactive_ui(coordinator):
         query = input()
         sys.stdout.write("On this node #: ")
         node_id = input()
-        success = await send_execute_request(coordinator, node_id, query)
+        timestamp = datetime.utcnow().timestamp()
+        # print(f"Query sent time: {timestamp}")
+        success = await send_execute_request(coordinator, node_id, query, timestamp)
         if not success:
             print("Error: EXECUTE was not successful. (Server may be blocked at previous transaction.)")
         sys.stdout.write("Send another query request? (y/n) ")
         keep_going = (input().lower() == "y")
 
 
-async def demo_ui(coordinator, data_db, n_nodes, table):
+async def demo_ui(coordinator, n_nodes, table):
     columns = demo_tables[table]
     create_table_query = demo_create_tables[table]
     print("Initializing tables on all participant nodes.")
     for i in range(n_nodes):
         print(f"Sending CREATE TABLE {table} query to node {i}.")
-        success = await send_execute_request(coordinator, i, create_table_query)
+        timestamp = datetime.utcnow().timestamp()
+        success = await send_execute_request(coordinator, i, create_table_query, timestamp)
         if not success:
             print(f"Failed.")
             return
-
-    # source_db = psycopg2.connect(data_db)
-    # source_cur = source_db.cursor()
-    # source_cur.execute("select * from " + table)
-    # try:
-    #     for row in source_cur:
-    #         timestamp_i = columns.index("timestamp")
-    #         row = list(row)
-    #         row[timestamp_i] = row[timestamp_i].strftime('%Y-%m-%d %H:%M:%S')
-    #         node_id = hash(row[0]) % n_nodes
-    #         query = f"INSERT INTO {table} ({','.join(columns)}) VALUES ({', '.join(['%s']*len(columns))})"
-    #         print(f"Sending INSERT {row[0]} request to node {node_id}.")
-    #         success = await send_execute_request(coordinator, node_id, query, tuple(row))
-    #         if not success:
-    #             print("Failed.")
-    #         print("Sleeping for one second.")
-    #         time.sleep(1)
-    # except KeyboardInterrupt:
-    #     print("Killed.")
 
     try:
         for row in data_tables[table]:
@@ -100,16 +83,17 @@ async def demo_ui(coordinator, data_db, n_nodes, table):
             for i in range(len(columns)):
                 if i == 1:
                     query += f"{row[i]}, "
-                elif i == len(columns) - 1:
+                if i == len(columns) - 1:
                     query += f"'{row[i]}')"
-                else:
+                if i != 1 and i != len(columns) - 1:
                     query += f"'{row[i]}', "
             print(query)
 
             print(f"Sending INSERT {row[0]} request to nodes.")
             for i in range(n_nodes):
                 print(f"Sending INSERT {row[0]} query to node {i}.")
-                success = await send_execute_request(coordinator, i, query)
+                timestamp = datetime.utcnow().timestamp()
+                success = await send_execute_request(coordinator, i, query, timestamp)
                 if not success:
                     print(f"Failed.")
                     return

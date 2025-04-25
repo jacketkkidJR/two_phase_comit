@@ -95,6 +95,7 @@ class RemoteCallClient(RemoteCallUtils):
                 success = await self.connect()
                 if not success:
                     return None
+
             self.logger.info(f"Sending remote call message to {self.server_host}:{self.server_port} of kind '{kind}': {json.dumps(data)}")
             serialized = self.encode_message(kind, data)
             ret = None
