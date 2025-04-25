@@ -10,7 +10,7 @@ import db
 import util
 
 
-def connect_or_create_db(arg, name):
+def connect_or_create_db(arg, name, host):
     # If no command line argument is supplied, create the database
     server = None
     db_conn = None
@@ -21,8 +21,8 @@ def connect_or_create_db(arg, name):
         server.start()
         db_conn = server.create_db_and_connect(name)
     else:
-        print(arg)
-        db_conn = psycopg2.connect(dbname=arg)
+        # print(arg)
+        db_conn = psycopg2.connect(dbname=arg, host=host[0], port=host[1])
     return server, db_conn
 
 
@@ -41,7 +41,11 @@ async def main():
     argparser.add_argument("--participant", type=util.hostname_port_type, action="append")
     argparser.add_argument("--data-db", type=str, help="Connection URI for data database; if none given, "
                                                        "a new database cluster will be started.")
+    argparser.add_argument("--data-db-host", type=util.hostname_port_type, help="Host and prot where the data database is running."
+                           "e.g. localhost:12345.")
     argparser.add_argument("--log-db", type=str, help="As for --data-db, but for log database.")
+    argparser.add_argument("--log-db-host", type=util.hostname_port_type, help="Host and prot where the log database is running."
+                           "e.g. localhost:12345.")
     argparser.add_argument("--timeout", type=int, default=10,
                            help="Nodes wait for replies from participants for this long.")
     argparser.add_argument("--batch-size", type=int, help="After N insert requests, transaction is committed.")
@@ -69,9 +73,9 @@ async def main():
     try:
 
         # Connect to databases
-        log_server, log_db = connect_or_create_db(args.log_db, "log")
+        log_server, log_db = connect_or_create_db(args.log_db, "log", args.log_db_host)
         if not is_coordinator:
-            data_server, data_db = connect_or_create_db(args.data_db, "data")
+            data_server, data_db = connect_or_create_db(args.data_db, "data", args.data_db_host)
         if log_server:
             print("Started log database cluster on port {}, using directory {}.".format(log_server.port,
                                                                                         log_server.data_dir))

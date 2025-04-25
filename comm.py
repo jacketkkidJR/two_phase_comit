@@ -87,6 +87,7 @@ class RemoteCallClient(RemoteCallUtils):
         await self.writer.wait_closed()
         self.writer = None
         self.reader = None
+        self.logger.info("Connection closed.")
 
     async def send(self, kind, data=None):
         async with self.lock:

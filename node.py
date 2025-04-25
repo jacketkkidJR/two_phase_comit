@@ -174,7 +174,8 @@ class TwoPhaseCommitCoordinator(TwoPhaseCommitNode):
 
     async def prepare_transaction(self, trans_id):
         assert self.transactions[trans_id] == "PREPARED"
-        await self.send_all("PREPARE", trans_id)
+        result = await self.send_all("PREPARE", trans_id)
+        self.logger.info(result)
         self.logger.info(f"Sent PREPARE {trans_id} to all participants.")
         try:
             await asyncio.wait_for(self.everyone_prepared_event.wait(), self.timeout)
@@ -414,6 +415,7 @@ class TwoPhaseCommitParticipant(TwoPhaseCommitNode):
         if trans_id in self.transactions:
             # Case (b): This is a PREPARE request for a transaction we already completed previously
             status = self.transactions[trans_id]
+            self.logger.info(f"Current transaction id is {trans_id} with status {status}.")
             if status == "PREPARED":
                 await self.coordinator.send_timeout("PREPARE", (self.node_id, trans_id, "COMMIT"))
                 return True

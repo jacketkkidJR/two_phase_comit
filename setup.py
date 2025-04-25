@@ -4,19 +4,22 @@ import time
 exec_cmds = []
 
 coordinator = 'localhost:9000'
+coordinator_db = 'localhost:8880'
 participants = ['localhost:9001', 'localhost:9002']
+participants_db = ['localhost:8881', 'localhost:8882']
 script_path = '/Users/timur/PycharmProjects/two-phase-commit/main.py'  # Full path to main.py
 
 coordinator_setup_command = f'python3 {script_path} --host {coordinator}'
 for participant in participants:
     coordinator_setup_command += f' --participant {participant}'
 coordinator_setup_command += ' --log-db logcoord'
+coordinator_setup_command += f' --log-db-host {coordinator_db}'
 coordinator_setup_command += f" --batch-size {len(participants)}"
 
 exec_cmds.append(coordinator_setup_command)
 
 for i, participant in enumerate(participants):
-    participant_setup_command = f'python3 {script_path} --node-id {i} --host {participant} --coordinator {coordinator} --log-db lognode{i} --data-db datanode{i}'
+    participant_setup_command = f'python3 {script_path} --node-id {i} --host {participant} --coordinator {coordinator} --log-db lognode{i} --log-db-host {participants_db[i]} --data-db datanode{i} --data-db-host {participants_db[i]}'
     exec_cmds.append(participant_setup_command)
 
 print(exec_cmds)
