@@ -1,1 +1,0 @@
-/opt/homebrew/Cellar/postgresql@15/15.12_1/bin/postgres "-D" "node0db" "-c" "max_prepared_transactions=99"

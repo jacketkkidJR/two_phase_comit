@@ -2,3 +2,5 @@
 .idea
 psqldb
 report
+node0db
+node1db
