@@ -1,0 +1,84 @@
+INFO:Participant#5:Recovering. 0 transactions read from log.
+INFO:Participant#5:BEGAN new transaction 1.
+INFO:Participant#5:EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) for transaction 1 in database.
+INFO:Participant#5:The request was sent by the client at 1745635139.869313. Done at 1745635139.872073. Total time = 0.0027599334716796875 (in seconds).
+INFO:Participant#5:Current transaction id is 1 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 1 to coordinator.
+INFO:Participant#5:COMMITTED 1 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 2.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) for transaction 2 in database.
+INFO:Participant#5:The request was sent by the client at 1745635139.930113. Done at 1745635139.931705. Total time = 0.0015919208526611328 (in seconds).
+INFO:Participant#5:Current transaction id is 2 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 2 to coordinator.
+INFO:Participant#5:COMMITTED 2 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 3.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) for transaction 3 in database.
+INFO:Participant#5:The request was sent by the client at 1745635140.961693. Done at 1745635140.962953. Total time = 0.0012600421905517578 (in seconds).
+INFO:Participant#5:Current transaction id is 3 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 3 to coordinator.
+INFO:Participant#5:COMMITTED 3 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 4.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) for transaction 4 in database.
+INFO:Participant#5:The request was sent by the client at 1745635141.991777. Done at 1745635141.993102. Total time = 0.0013251304626464844 (in seconds).
+INFO:Participant#5:Current transaction id is 4 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 4 to coordinator.
+INFO:Participant#5:COMMITTED 4 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 5.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) for transaction 5 in database.
+INFO:Participant#5:The request was sent by the client at 1745635143.021573. Done at 1745635143.0229. Total time = 0.0013270378112792969 (in seconds).
+INFO:Participant#5:Current transaction id is 5 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 5 to coordinator.
+INFO:Participant#5:COMMITTED 5 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 6.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) for transaction 6 in database.
+INFO:Participant#5:The request was sent by the client at 1745635144.05152. Done at 1745635144.052926. Total time = 0.001405954360961914 (in seconds).
+INFO:Participant#5:Current transaction id is 6 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 6 to coordinator.
+INFO:Participant#5:COMMITTED 6 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 7.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) for transaction 7 in database.
+INFO:Participant#5:The request was sent by the client at 1745635145.082758. Done at 1745635145.084096. Total time = 0.0013380050659179688 (in seconds).
+INFO:Participant#5:Current transaction id is 7 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 7 to coordinator.
+INFO:Participant#5:COMMITTED 7 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 8.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) for transaction 8 in database.
+INFO:Participant#5:The request was sent by the client at 1745635146.114498. Done at 1745635146.115941. Total time = 0.0014431476593017578 (in seconds).
+INFO:Participant#5:Current transaction id is 8 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 8 to coordinator.
+INFO:Participant#5:COMMITTED 8 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 9.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) for transaction 9 in database.
+INFO:Participant#5:The request was sent by the client at 1745635147.148072. Done at 1745635147.149422. Total time = 0.0013499259948730469 (in seconds).
+INFO:Participant#5:Current transaction id is 9 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 9 to coordinator.
+INFO:Participant#5:COMMITTED 9 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 10.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) for transaction 10 in database.
+INFO:Participant#5:The request was sent by the client at 1745635148.180678. Done at 1745635148.182023. Total time = 0.0013451576232910156 (in seconds).
+INFO:Participant#5:Current transaction id is 10 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 10 to coordinator.
+INFO:Participant#5:COMMITTED 10 into database.
+INFO:Participant#5:Sent DONE to coordinator.
+INFO:Participant#5:BEGAN new transaction 11.
+INFO:Participant#5:EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) for transaction 11 in database.
+INFO:Participant#5:The request was sent by the client at 1745635149.217995. Done at 1745635149.219317. Total time = 0.001322031021118164 (in seconds).
+INFO:Participant#5:Current transaction id is 11 with status BEGUN.
+INFO:Participant#5:Sent PREPARE COMMIT 11 to coordinator.
+INFO:Participant#5:COMMITTED 11 into database.
+INFO:Participant#5:Sent DONE to coordinator.

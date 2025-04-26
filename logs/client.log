@@ -1,0 +1,146 @@
+/Users/andrejevstafev/study/this-semester/cloud-comp/proj/two_phase_comit/client.py:72: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().timestamp()
+/Users/andrejevstafev/study/this-semester/cloud-comp/proj/two_phase_comit/client.py:95: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().timestamp()
+Connected to coordinator at localhost:9010.
+Initializing tables on all participant nodes.
+Sending CREATE TABLE thermometerobservation query to node 0.
+Sending CREATE TABLE thermometerobservation query to node 1.
+Sending CREATE TABLE thermometerobservation query to node 2.
+Sending CREATE TABLE thermometerobservation query to node 3.
+Sending CREATE TABLE thermometerobservation query to node 4.
+Sending CREATE TABLE thermometerobservation query to node 5.
+Sending CREATE TABLE thermometerobservation query to node 6.
+Sending CREATE TABLE thermometerobservation query to node 7.
+Sending CREATE TABLE thermometerobservation query to node 8.
+Sending CREATE TABLE thermometerobservation query to node 9.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')
+Sending INSERT thermo_001 request to nodes.
+Sending INSERT thermo_001 query to node 0.
+Sending INSERT thermo_001 query to node 1.
+Sending INSERT thermo_001 query to node 2.
+Sending INSERT thermo_001 query to node 3.
+Sending INSERT thermo_001 query to node 4.
+Sending INSERT thermo_001 query to node 5.
+Sending INSERT thermo_001 query to node 6.
+Sending INSERT thermo_001 query to node 7.
+Sending INSERT thermo_001 query to node 8.
+Sending INSERT thermo_001 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')
+Sending INSERT thermo_002 request to nodes.
+Sending INSERT thermo_002 query to node 0.
+Sending INSERT thermo_002 query to node 1.
+Sending INSERT thermo_002 query to node 2.
+Sending INSERT thermo_002 query to node 3.
+Sending INSERT thermo_002 query to node 4.
+Sending INSERT thermo_002 query to node 5.
+Sending INSERT thermo_002 query to node 6.
+Sending INSERT thermo_002 query to node 7.
+Sending INSERT thermo_002 query to node 8.
+Sending INSERT thermo_002 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')
+Sending INSERT thermo_003 request to nodes.
+Sending INSERT thermo_003 query to node 0.
+Sending INSERT thermo_003 query to node 1.
+Sending INSERT thermo_003 query to node 2.
+Sending INSERT thermo_003 query to node 3.
+Sending INSERT thermo_003 query to node 4.
+Sending INSERT thermo_003 query to node 5.
+Sending INSERT thermo_003 query to node 6.
+Sending INSERT thermo_003 query to node 7.
+Sending INSERT thermo_003 query to node 8.
+Sending INSERT thermo_003 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')
+Sending INSERT thermo_004 request to nodes.
+Sending INSERT thermo_004 query to node 0.
+Sending INSERT thermo_004 query to node 1.
+Sending INSERT thermo_004 query to node 2.
+Sending INSERT thermo_004 query to node 3.
+Sending INSERT thermo_004 query to node 4.
+Sending INSERT thermo_004 query to node 5.
+Sending INSERT thermo_004 query to node 6.
+Sending INSERT thermo_004 query to node 7.
+Sending INSERT thermo_004 query to node 8.
+Sending INSERT thermo_004 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')
+Sending INSERT thermo_005 request to nodes.
+Sending INSERT thermo_005 query to node 0.
+Sending INSERT thermo_005 query to node 1.
+Sending INSERT thermo_005 query to node 2.
+Sending INSERT thermo_005 query to node 3.
+Sending INSERT thermo_005 query to node 4.
+Sending INSERT thermo_005 query to node 5.
+Sending INSERT thermo_005 query to node 6.
+Sending INSERT thermo_005 query to node 7.
+Sending INSERT thermo_005 query to node 8.
+Sending INSERT thermo_005 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')
+Sending INSERT thermo_006 request to nodes.
+Sending INSERT thermo_006 query to node 0.
+Sending INSERT thermo_006 query to node 1.
+Sending INSERT thermo_006 query to node 2.
+Sending INSERT thermo_006 query to node 3.
+Sending INSERT thermo_006 query to node 4.
+Sending INSERT thermo_006 query to node 5.
+Sending INSERT thermo_006 query to node 6.
+Sending INSERT thermo_006 query to node 7.
+Sending INSERT thermo_006 query to node 8.
+Sending INSERT thermo_006 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')
+Sending INSERT thermo_007 request to nodes.
+Sending INSERT thermo_007 query to node 0.
+Sending INSERT thermo_007 query to node 1.
+Sending INSERT thermo_007 query to node 2.
+Sending INSERT thermo_007 query to node 3.
+Sending INSERT thermo_007 query to node 4.
+Sending INSERT thermo_007 query to node 5.
+Sending INSERT thermo_007 query to node 6.
+Sending INSERT thermo_007 query to node 7.
+Sending INSERT thermo_007 query to node 8.
+Sending INSERT thermo_007 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')
+Sending INSERT thermo_008 request to nodes.
+Sending INSERT thermo_008 query to node 0.
+Sending INSERT thermo_008 query to node 1.
+Sending INSERT thermo_008 query to node 2.
+Sending INSERT thermo_008 query to node 3.
+Sending INSERT thermo_008 query to node 4.
+Sending INSERT thermo_008 query to node 5.
+Sending INSERT thermo_008 query to node 6.
+Sending INSERT thermo_008 query to node 7.
+Sending INSERT thermo_008 query to node 8.
+Sending INSERT thermo_008 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')
+Sending INSERT thermo_009 request to nodes.
+Sending INSERT thermo_009 query to node 0.
+Sending INSERT thermo_009 query to node 1.
+Sending INSERT thermo_009 query to node 2.
+Sending INSERT thermo_009 query to node 3.
+Sending INSERT thermo_009 query to node 4.
+Sending INSERT thermo_009 query to node 5.
+Sending INSERT thermo_009 query to node 6.
+Sending INSERT thermo_009 query to node 7.
+Sending INSERT thermo_009 query to node 8.
+Sending INSERT thermo_009 query to node 9.
+Sleeping for one second.
+INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')
+Sending INSERT thermo_010 request to nodes.
+Sending INSERT thermo_010 query to node 0.
+Sending INSERT thermo_010 query to node 1.
+Sending INSERT thermo_010 query to node 2.
+Sending INSERT thermo_010 query to node 3.
+Sending INSERT thermo_010 query to node 4.
+Sending INSERT thermo_010 query to node 5.
+Sending INSERT thermo_010 query to node 6.
+Sending INSERT thermo_010 query to node 7.
+Sending INSERT thermo_010 query to node 8.
+Sending INSERT thermo_010 query to node 9.
+Sleeping for one second.

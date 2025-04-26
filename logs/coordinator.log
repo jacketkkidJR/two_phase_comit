@@ -1,0 +1,1606 @@
+INFO:Coordinator:Recovering. Read 0 transactions from log.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.851548", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 0.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.855611", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 1.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.859655", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 2.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.862977", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 3.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.865998", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 4.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.869313", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 5.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.87255", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 6.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.87644", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 7.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.879445", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 8.
+INFO:Coordinator:Received EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [1, "CREATE TABLE IF NOT EXISTS ThermometerObservation (\n          id varchar(255) NOT NULL,\n          temperature integer DEFAULT NULL,\n          timeStamp timestamp NOT NULL,\n          sensor_id varchar(255) DEFAULT NULL,\n          PRIMARY KEY (id)\n        )", "1745635139.883274", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (CREATE TABLE IF NOT EXISTS ThermometerObservation (
+          id varchar(255) NOT NULL,
+          temperature integer DEFAULT NULL,
+          timeStamp timestamp NOT NULL,
+          sensor_id varchar(255) DEFAULT NULL,
+          PRIMARY KEY (id)
+        )) to participant 9.
+INFO:Coordinator:Current transaction: 1
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 1
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 1
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent PREPARE 1 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 1
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 1
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Received DONE from node 3.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:Coordinator:Received DONE from node 9.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 8.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received DONE from node 4.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Everyone DONE. Removing transaction 1.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.918771", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.920685", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.923142", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.926142", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.928283", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.930113", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.932172", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.934162", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.935923", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [2, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')", "1745635139.93787", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_001', 22, '2025-04-20 10:15:00', 'sensor_a')) to participant 9.
+INFO:Coordinator:Current transaction: 2
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 2
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 2
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent PREPARE 2 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 2
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 2
+INFO:Coordinator:Received DONE from node 3.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received DONE from node 7.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 4.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received DONE from node 0.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Everyone DONE. Removing transaction 2.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.952002", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.954343", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.956259", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.957993", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.959937", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.961693", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.963359", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.965059", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.966812", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [3, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')", "1745635140.96848", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_002', 19, '2025-04-20 10:20:00', 'sensor_b')) to participant 9.
+INFO:Coordinator:Current transaction: 3
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 3
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 3
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent PREPARE 3 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 3
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 3
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Received DONE from node 3.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 1.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Everyone DONE. Removing transaction 3.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.981763", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.984341", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.986326", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.988054", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.989959", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.991777", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.9935", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.995268", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.997229", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [4, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')", "1745635141.998927", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_003', 25, '2025-04-20 10:25:00', 'sensor_c')) to participant 9.
+INFO:Coordinator:Current transaction: 4
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 4
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 4
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent PREPARE 4 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 4
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 4
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 7.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:Coordinator:Received DONE from node 6.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 9.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Everyone DONE. Removing transaction 4.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.012374", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.014562", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.016241", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.018131", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.019938", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.021573", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.023292", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.024984", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.026833", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [5, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')", "1745635143.028544", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_004', 21, '2025-04-20 10:30:00', 'sensor_d')) to participant 9.
+INFO:Coordinator:Current transaction: 5
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 5
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 5
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent PREPARE 5 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 5
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 5
+INFO:Coordinator:Received DONE from node 7.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Everyone DONE. Removing transaction 5.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.042234", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.044493", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.046393", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.048066", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.049783", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.05152", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.053342", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.054919", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.056779", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [6, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')", "1745635144.05843", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_005', 18, '2025-04-20 10:35:00', 'sensor_e')) to participant 9.
+INFO:Coordinator:Current transaction: 6
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 6
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 6
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent PREPARE 6 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 6
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 6
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Received DONE from node 4.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 8.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 0.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 5.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Everyone DONE. Removing transaction 6.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.073392", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.075586", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.07752", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.079288", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.081063", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.082758", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.084495", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.086093", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.087969", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [7, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')", "1745635145.089714", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_006', 23, '2025-04-20 10:40:00', 'sensor_f')) to participant 9.
+INFO:Coordinator:Current transaction: 7
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 7
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 7
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent PREPARE 7 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 7
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 7
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Received DONE from node 0.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:Coordinator:Received DONE from node 1.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Received DONE from node 8.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Everyone DONE. Removing transaction 7.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.104541", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.107137", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.109019", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.110821", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.11273", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.114498", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.116362", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.118154", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.120142", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [8, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')", "1745635146.122006", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_007', 20, '2025-04-20 10:45:00', 'sensor_g')) to participant 9.
+INFO:Coordinator:Current transaction: 8
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 8
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 8
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent PREPARE 8 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 8
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 8
+INFO:Coordinator:Received DONE from node 2.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Received DONE from node 8.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 9.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Everyone DONE. Removing transaction 8.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.138113", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.140629", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.142491", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.144403", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.146299", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.148072", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.149785", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.151449", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.153277", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [9, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')", "1745635147.155025", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_008', 24, '2025-04-20 10:50:00', 'sensor_h')) to participant 9.
+INFO:Coordinator:Current transaction: 9
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 9
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 9
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent PREPARE 9 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 9
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 9
+INFO:Coordinator:Received DONE from node 7.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 3.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received DONE from node 4.
+INFO:Coordinator:Received DONE from node 2.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 1.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received DONE from node 9.
+INFO:Coordinator:Everyone DONE. Removing transaction 9.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.170935", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.173448", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.175149", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.177062", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.178867", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.180678", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.182415", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.184317", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.186022", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [10, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')", "1745635148.188028", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_009', 26, '2025-04-20 10:55:00', 'sensor_i')) to participant 9.
+INFO:Coordinator:Current transaction: 10
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 10
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 10
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent PREPARE 10 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 10
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 10
+INFO:Coordinator:Received DONE from node 0.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received DONE from node 3.
+INFO:Coordinator:Received DONE from node 5.
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 6.
+INFO:Coordinator:Received DONE from node 4.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 9.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Everyone DONE. Removing transaction 10.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 0 request from client.
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.208286", []]
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 0.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 1 request from client.
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.210558", []]
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 1.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 2 request from client.
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.212456", []]
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 2.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 3 request from client.
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.214303", []]
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 3.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 4 request from client.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.216122", []]
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 4.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 5 request from client.
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.217995", []]
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 5.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 6 request from client.
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.219855", []]
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 6.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 7 request from client.
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.221632", []]
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 7.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 8 request from client.
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.223284", []]
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 8.
+INFO:Coordinator:Received EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) with args () for node 9 request from client.
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'EXECUTE': [11, "INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')", "1745635149.224989", []]
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent EXECUTE (INSERT INTO thermometerobservation (id, temperature, timestamp, sensor_id) VALUES ('thermo_010', 17, '2025-04-20 11:00:00', 'sensor_j')) to participant 9.
+INFO:Coordinator:Current transaction: 11
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'PREPARE': 11
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'PREPARE': 11
+INFO:Coordinator:Received PREPARED COMMIT from participant 8.
+INFO:Coordinator:Received PREPARED COMMIT from participant 5.
+INFO:Coordinator:Received PREPARED COMMIT from participant 3.
+INFO:Coordinator:Received PREPARED COMMIT from participant 0.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:Coordinator:Received PREPARED COMMIT from participant 2.
+INFO:Coordinator:Received PREPARED COMMIT from participant 4.
+INFO:Coordinator:Received PREPARED COMMIT from participant 7.
+INFO:Coordinator:Received PREPARED COMMIT from participant 1.
+INFO:Coordinator:Received PREPARED COMMIT from participant 6.
+INFO:Coordinator:Received PREPARED COMMIT from participant 9.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:Coordinator:Sent PREPARE 11 to all participants.
+INFO:Coordinator:Every participant replied with PREPARED COMMIT.
+INFO:Coordinator:Sending COMMIT to all participants.
+INFO:RemoteCallClient(localhost:9004):Sending remote call message to localhost:9004 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9000):Sending remote call message to localhost:9000 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9001):Sending remote call message to localhost:9001 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9007):Sending remote call message to localhost:9007 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9003):Sending remote call message to localhost:9003 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9002):Sending remote call message to localhost:9002 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9006):Sending remote call message to localhost:9006 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9008):Sending remote call message to localhost:9008 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9009):Sending remote call message to localhost:9009 of kind 'COMMIT': 11
+INFO:RemoteCallClient(localhost:9005):Sending remote call message to localhost:9005 of kind 'COMMIT': 11
+INFO:Coordinator:Received DONE from node 4.
+INFO:RemoteCallClient(localhost:9004):Server replied: true
+INFO:RemoteCallClient(localhost:9004):Connection closed.
+INFO:Coordinator:Received DONE from node 0.
+INFO:Coordinator:Received DONE from node 6.
+INFO:RemoteCallClient(localhost:9000):Server replied: true
+INFO:RemoteCallClient(localhost:9006):Server replied: true
+INFO:Coordinator:Received DONE from node 2.
+INFO:Coordinator:Received DONE from node 3.
+INFO:RemoteCallClient(localhost:9000):Connection closed.
+INFO:RemoteCallClient(localhost:9006):Connection closed.
+INFO:Coordinator:Received DONE from node 1.
+INFO:Coordinator:Received DONE from node 7.
+INFO:Coordinator:Received DONE from node 8.
+INFO:Coordinator:Received DONE from node 9.
+INFO:RemoteCallClient(localhost:9002):Server replied: true
+INFO:RemoteCallClient(localhost:9003):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Server replied: true
+INFO:RemoteCallClient(localhost:9002):Connection closed.
+INFO:RemoteCallClient(localhost:9003):Connection closed.
+INFO:RemoteCallClient(localhost:9007):Server replied: true
+INFO:RemoteCallClient(localhost:9001):Connection closed.
+INFO:RemoteCallClient(localhost:9008):Server replied: true
+INFO:RemoteCallClient(localhost:9007):Connection closed.
+INFO:Coordinator:Received DONE from node 5.
+INFO:Coordinator:Everyone DONE. Removing transaction 11.
+INFO:RemoteCallClient(localhost:9008):Connection closed.
+INFO:RemoteCallClient(localhost:9009):Server replied: true
+INFO:RemoteCallClient(localhost:9009):Connection closed.
+INFO:RemoteCallClient(localhost:9005):Server replied: true
+INFO:RemoteCallClient(localhost:9005):Connection closed.

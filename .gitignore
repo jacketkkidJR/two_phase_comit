@@ -13,3 +13,7 @@ node6db
 node7db
 node8db
 node9db
+__pycache__
+*.pyc
+.venv
+db
