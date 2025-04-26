@@ -399,7 +399,8 @@ class TwoPhaseCommitParticipant(TwoPhaseCommitNode):
         try:
             self.data_db_cur.execute(query, args)
             timestampend = datetime.utcnow().timestamp()
-            self.logger.info(f"The request was sent by the client at {timestamp}. Done at {timestampend}. Total time = {timestampend - timestamp} (in seconds).")
+            total_time = timestampend - float(timestamp)
+            self.logger.info(f"The request was sent by the client at {timestamp}. Done at {timestampend}. Total time = {total_time} (in seconds).")
         except psycopg2.Error as e:
             self.do_abort(trans_id)
             self.logger.error(f"EXECUTE failed: {str(e)}")
